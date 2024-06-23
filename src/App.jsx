@@ -1,8 +1,17 @@
+import About from "./components/about/About";
+import Home from "./components/home/Home";
+import Navbar from "./components/navbar/Navbar";
+import Services from "./components/services/Services";
+import Footer from "./components/footer/Footer";
+
 function App() {
   return (
     <>
-      <h1>Taller de corte y confeccion</h1>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Navbar />
+      <Home />
+      <About />
+      <Services />
+      <Footer />
     </>
   );
 }
