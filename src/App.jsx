@@ -1,17 +1,11 @@
-import About from "./components/about/About";
-import Home from "./components/home/Home";
 import Navbar from "./components/navbar/Navbar";
-import Services from "./components/services/Services";
-import Footer from "./components/footer/Footer";
+import Home from "./components/home/Home";
 
 function App() {
   return (
     <>
       <Navbar />
       <Home />
-      <About />
-      <Services />
-      <Footer />
     </>
   );
 }
